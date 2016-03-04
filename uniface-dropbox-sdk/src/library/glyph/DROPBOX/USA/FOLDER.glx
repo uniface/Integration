@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="UGLYPH" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCVERS" seqno="2" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCSUB" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UCLABEL" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UCVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UCTYPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UCLASS" seqno="7" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="105" />
+<FLD name="UCOPTION" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBITMAP" seqno="11" type="I" level="2" pack="131" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-07-29T14:03:39.00</DAT>
+<DAT name="UCSUB">I</DAT>
+<DAT name="UCLABEL">FOLDER</DAT>
+<DAT name="UCVAR">DROPBOX</DAT>
+<DAT name="UCTYPE">USA</DAT>
+<DAT name="UCLASS" xml:space='preserve'>Iw 8!1!1</DAT>
+<DAT name="UCOPTION">F</DAT>
+<DAT name="UDESCR">folder.gif</DAT>
+<DAT name="UBITMAP">I1VOSSMBAwAQABAIAAAAAAAAAADZijPZizPajjjbkD7blzvblD/bmzvbnDvaozrbojvapzrbpjvarDjbrTzbsT3btTvcmUfbrkDcs0Dfv1bgvFflsXbwyybxzS7xzjDy0Dny0Tvg
+wVnz00Tz00fz1En01k/011T011f02Fz12V3hw2HixGLixGPjyG/kyG7qy2ztymrmzn3pwXPuz3Luz3bv0Hrxz2nx0Gz12mP122X122j23Gzx0nLy03ny1H/23nL23nb233b24Hzo
+uYXuzojo0ITv0oDv04Xv1JTy1YHz14bz2I7z2pb03JP13pH13pT0257tyaL03af34YH34oX344X344v45I714J/45ZH45pT45pX56Jz24az56aH56aT67Kzy5Ln67bP777n26cn4
+6sL78sr78sz88sj889D89Nf68N789tj79uj79+n79+r7+Oz++u/+++7+++/9+vH8+vL9+vL+/PD+/PH+/PL+/PP+/fT//PX+/Pb+/Pf//fb//fj+/fv//fr+/v3//v3//v7///4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////+AAYABgAGAAYABgAGAAYABgAGAAYAB////
+/4KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoIcJScnJyYUa3BwcHBwfIKCEH6BgH+BaikoKCgsQFyCghN5UklTWG52dXNubX0VgoISb0pI
+RCsqQkEwLy5pD4KCDWhDPy1fdHV0cm5tgQ6CgguBe3p3dWdVUDw1I2UMgoIJeGNeW1dRPTYkIB1kCoKCCHFdWlZPOzQiHxsZYgeCggVsWVROOjMhHhoYF2EFgoIRZk1LR0ZFOTg3
+MjFgBoKCTBYEAgICAgICAgIBAz6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoI=</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

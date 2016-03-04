@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="UGLYPH" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCVERS" seqno="2" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCSUB" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UCLABEL" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UCVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UCTYPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UCLASS" seqno="7" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="105" />
+<FLD name="UCOPTION" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBITMAP" seqno="11" type="I" level="2" pack="131" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-07-30T10:37:53.00</DAT>
+<DAT name="UCSUB">I</DAT>
+<DAT name="UCLABEL">PAGE_WHITE_CSHAR</DAT>
+<DAT name="UCVAR">DROPBOX</DAT>
+<DAT name="UCTYPE">USA</DAT>
+<DAT name="UCLASS" xml:space='preserve'>Iw 8!1!1</DAT>
+<DAT name="UCOPTION">F</DAT>
+<DAT name="UDESCR">page_white_csharp.gif</DAT>
+<DAT name="UBITMAP">I1VOSSMBAwAQABAIAAAAAAAAAABkjd1hkd9jkt9nkt5pld9vmN5ykd9mleBrmOFtm+NxneN0nuN0n+N6nuB1oeB1oeR3oeV3ouR4oeR4o+R6o+Z6pOJ7peV9p+R9puZ/p+aCmeCN
+pdCOpt6IqdeMq9WCouOHoOKCquaDquaHreeIoeOIo+KLqeWOquWIr+iMsuqXqeKQtOqRteqQtuqQt+uSuOuTueuVuuuWueuXu+yYuuqYu+2bveuZvOydvuydv+2nts6hs9Ckuuqm
+vOqnveupuemquumsvOqhwu6rw+6qxO2vwOusxu2zx+62w+u3xOy4xuzCwsLFxcXJycnLy8vMzMzf39/Ay+vH0/HI0/HN2fLM2/LS2+/V2+nT3PPW3/TW4PTX4fTd6Pji4uLj4+Pn
+5+fp6enq6urv7+/i6Pbl6/fn7vnq7fXs7/fu8fnv8/nw8PDx8fHy8vLz8/P09PT19fX29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v4AAAAAAAAAAAAAAAAAAAAAAACAgICBgYGC
+goKDg4OEhISFhYWGhoaHh4eIiIiJiYmKioqLi4uMjIyNjY2Ojo6Pj4+QkJCRkZGSkpKTk5OUlJSVlZWWlpaXl5eYmJiZmZmampqbm5ucnJydnZ2enp6fn5+goKChoaGioqKjo6Ok
+pKSlpaWmpqanp6eoqKipqamqqqqrq6usrKytra2urq6vr6+wsLCxsbGysrKzs7O0tLS1tbW2tra3t7e4uLi5ubm6urq7u7u8vLy9vb2+vr6/v7/AwMDBwcHCwsLDw8PExMTFxcXG
+xsbHx8fIyMjJycnKysrLy8vMzMzNzc3Ozs7Pz8/Q0NDR0dHS0tLT09PU1NTV1dXW1tbX19fY2NjZ2dna2trb29vc3Nzd3d3e3t7f39/g4ODh4eHi4uLj4+Pk5OTl5eXm5ubn5+fo
+6Ojp6enq6urr6+vs7Ozt7e3u7u7v7+/w8PDx8fHy8vLz8/P09PT19fX29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7////AA8ABwACAAIAAAAAAAAAAAAAAAAAAgACAAIAAwADA
+AHp6X1BOTk5OTk5OTlF4enp6elBzdnd3d3d3d3NMUXh6enpOdm9wcHBsY2F3YExReHp5TndydHJybmtid3FvTVF6Zh8yNUdWcnFtGD5bDWROXS86OTc0LXZzVxpYHQZ3TjhDHnd3
+RSllIhQkDgkFJU4wNjx3d3dIVT0jICYSK0pOLjE7d3d3d1pGFUshBFJpTiozHHd3dycRFxMLDAIBd05ELBZcaigRWQhASQJnc3dOej8PGRAKQkEDaAcbdXV3Tnp5TlRTd3d3dnZ2
+dnZ2d056eU53d3d3d3d3d3d3d3dOenpPdHd3d3d3d3d3d3d0UHp6Xk9OTk5OTk5OTk5OUF4=</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
