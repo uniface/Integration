@@ -1,0 +1,29 @@
+[SETTINGS]
+$search_resources  resources_only
+$resources_output  .\bin
+$nls_internal_time UTC
+
+[RESOURCES]
+.\bin
+usys:uidf.uar
+usys:usys.uar
+usys:usysicon.uar
+usys:udbg.uar
+
+[FILES]
+usys:*.xml  usysuniface:.\misc\*.xml
+
+*.log       .\log\*.log
+*.*lst      .\lst\*.*lst
+*.dtd       .\dtd\*.dtd
+
+#file .\asn\dbms.asn
+
+[LOGICALS]
+ulistnerstring <uniface_path>\common\bin\Uniface.exe /ini=.\adm\usys.ini  /asn=.\asn\idf.asn umsgsvc
+
+[USER_3GL]
+irtl.dll
+advapi32.dll
+user32.dll
+.\ext\uniWinHook.dll
