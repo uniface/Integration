@@ -1,0 +1,62 @@
+<setup-config>
+
+	<!--
+		These files will be copied from the "from" location to the "to" location with values
+		substituted in for the local environment
+	-->
+	<templates>
+		<template from=".\asn\templates\idf.asn.template" to=".\asn\idf.asn" /> 
+		<template from=".\asn\templates\setup.asn.template" to=".\asn\setup.asn" />
+    		<template from=".\asn\templates\dbms.asn.template" to=".\asn\dbms.asn" />
+		<template from=".\asn\templates\include.asn.template" to=".\asn\include.asn" />
+		<template from=".\asn\templates\urouter.asn.template" to=".\asn\urouter.asn" />		
+		<template from=".\adm\templates\usys.ini.template" to=".\adm\usys.ini" />		
+		<template from=".\web\WEB-INF\web.xml.template" to=".\web\WEB-INF\web.xml" />
+	</templates>
+
+	<web-templates>
+		<template from=".\setup\projectname.xml.template" to="${projectname}.xml" /> 
+	</web-templates>
+
+	<!-- Specify where your project urouter.asn file is so it can be included in the main urouter.asn -->
+	<urouter-asn location=".\asn\urouter.asn" />
+
+	<!-- Data files to import into the DEF database -->
+	<data-import-files>
+		<data-import-file location=".\data\*.xml" />
+		<data-import-file location=".\exports\*.xml" />
+	</data-import-files>
+
+
+	<shortcuts>
+        <shortcut name='REST Api - Development'
+                  target='%USYS97%\common\bin\idf.exe'
+                  args='/adm="%USYS97%\uniface\adm\" /asn=./asn/idf.asn ?' />
+      <shortcut name='Link-REST Api Test'
+              target='http://localhost:8080/RESTApi/REPAPI'
+              args='' />
+    </shortcuts>
+    
+
+		<!--
+			A list of folders that the setup tool should create. These would usually
+			be folders that the project needs but don't make sense to commit to
+			version control. For example, a log folder.
+		-->
+		<folders>
+			<folder name=".\bin" />
+			<folder name=".\build" />
+			<folder name=".\dbms" />
+			<folder name=".\ext" />
+			<folder name=".\log" />
+			<folder name=".\lst" />
+		</folders>
+
+	  <build-switches asn=".\asn\setup.asn"
+	                  ini=""
+	                  debug="0" />
+
+    <do-import>1</do-import>
+    <do-compile>1</do-compile>
+
+</setup-config>

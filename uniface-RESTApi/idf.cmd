@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Uniface\Uniface 9.7.01\common\bin\idf.exe" /dir=.\ /asn=./asn/idf.asn /ini=.\usys.ini %1 %2 %3 %4

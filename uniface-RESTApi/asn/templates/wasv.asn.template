@@ -1,0 +1,27 @@
+#file .\asn\dbms.asn
+
+[SETTINGS]
+$putmess_logfile      = .\log\wasv_%p.log
+$search_resources     = resources_only
+$js_base_url          = ../dspjs
+$test_mode_components
+$language = USA
+$variation = SYSTEM_LIBRARY
+
+[RESOURCES]
+.\bin
+
+usys:uidf.uar
+usys:usys.uar
+usys:usysicon.uar
+usys:udbg.uar
+
+[FILES]
+*.log		    .\log\*.log
+
+[LOGICALS]
+BASE_URL              = ../
+
+
+[web]
+$UNIFACE_RUNTIME_BASE_URL = /uniface/common
