@@ -1,0 +1,2 @@
+This directory contains supporting documentation for the project/example. These documents will either further explain the implementation or
+include additional in depth reading.
