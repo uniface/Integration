@@ -1,0 +1,2 @@
+This directory contains initial data required for the project to execute successfully. 
+The data will be in XML format so that UNIFACE can be used to load the data. 

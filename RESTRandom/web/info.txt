@@ -1,0 +1,4 @@
+This directory contains web specific files. Examples include:
+- required images
+- additional javascript(s)
+- Style Sheets

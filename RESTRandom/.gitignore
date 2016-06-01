@@ -1,0 +1,14 @@
+log/
+lst/
+project.setup.xml
+web/dspjs/
+bin/
+asn/idf.asn
+asn/setup.asn
+asn/urouter.asn
+src/signatures/
+dbms/source_repo.db
+dbms/app_data.db
+web/WEB-INF/web.xml
+src/library/menu/USYS/USA/FILESYNC.mnx
+UDBG.CNF

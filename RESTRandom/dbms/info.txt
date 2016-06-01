@@ -1,0 +1,7 @@
+This directory contains database specific files. Examples include:
+- Table creation scripts
+- Stored Procedures
+- Views
+- Index creation
+
+They will be executed in order. The file(s) will be named as follows : 01_*.SQL, 02_*.SQL etc
