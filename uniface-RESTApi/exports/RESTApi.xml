@@ -1,0 +1,2864 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:23:22.00</DAT>
+<DAT name="UCOMPSTAMP">2016-03-03T12:26:37.00</DAT>
+<DAT name="ULABEL">APICUSTOMER</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Customer API</DAT>
+<DAT name="WVPOS">3</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">35</DAT>
+<DAT name="WHSIZ">85</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">7</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="INIT" xml:space='preserve'>public web
+	variables
+		string JSONrecords
+		string fieldlist 
+		string vItemId
+		string vItemValue
+		string lcItem
+		string vIndex
+		numeric totalOcc 
+		struct customerStruct
+	endvariables 
+ 
+
+	clear
+	retrieve "CUSTOMER" 
+	setocc "CUSTOMER",1
+	totalOcc = $hits("CUSTOMER")
+ 
+	putitem/id $webinfo("httpresponseheaders"),"Access-Control-Allow-Origin","http://localhost"
+	putitem/id $webinfo("httpresponseheaders"),"Allow-Origin","http://localhost"
+
+	putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/html;charset=utf-8"
+;	putitem/id $webinfo("httpresponseheaders"),"Content-Type", "application/json;charset=utf-8"
+
+	componentToStruct 
+
+	#define DQ %%"%%% 
+
+	JSONrecords= " [ "
+	
+	forentity "CUSTOMER.PAPERROUTE" ;loop through each CUSTOMER row
+		JSONrecords = "%%JSONrecords { "
+		putlistitems/occ fieldlist, "CUSTOMER.PAPERROUTE"		 
+	
+		forlist/id vItemId, vItemValue, vIndex in fieldlist          
+			lcItem = $lowercase(vItemId,"classic")
+			if ($number(vItemValue) = 0)                   
+				JSONrecords = "%%JSONrecords &lt;DQ&gt;%%lcItem&lt;DQ&gt; : &lt;DQ&gt;%%vItemValue&lt;DQ&gt;" 
+			else
+				JSONrecords = "%%JSONrecords &lt;DQ&gt;%%lcItem&lt;DQ&gt; : %%vItemValue" 
+			endif
+			if (vIndex &lt; $itemcount(fieldlist) )
+				JSONrecords = "%%JSONrecords, "
+			endif
+	
+		endfor
+		JSONrecords = "%%JSONrecords }" 
+		if ($curocc("CUSTOMER") &lt; totalOcc) 
+			JSONrecords = "%%JSONrecords, "
+		endif
+	endfor
+
+JSONrecords= "%%JSONrecords ]" 
+$webinfo("OUTPUT") = JSONrecords
+return(0)
+</DAT>
+<DAT name="CLEAR">clear</DAT>
+<DAT name="RETRIEVE" xml:space='preserve'>retrieve
+if ($status &lt; 0)
+   message $text(1762) ;error
+endif
+</DAT>
+<DAT name="RECORD" xml:space='preserve'>retrieve
+if ($status &lt;0)
+   message $text(1765) ;error
+endif
+</DAT>
+<DAT name="STORE" xml:space='preserve'>store
+if ($status &lt;0)
+   message $text(1500) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1723) ;no change
+   else
+      commit
+      if ($status &lt; 0)
+         rollback
+      else
+         message $text(1805) ;OK
+      endif
+   endif
+endif
+</DAT>
+<DAT name="DELET" xml:space='preserve'>erase
+if ($status &lt;0)
+   message $text(1763) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1634) ;not allowed
+   else
+      message $text(1806) ;OK
+      commit
+   endif
+endif
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=CUSTOMER.PAPERROUTE&uSEP;WID=25&uSEP;HEI=44&uSEP;HOC=25&uSEP;VOC=44&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=CUSTOMERID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CUSTOMERID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=FULLNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FULLNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=ROUTEID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=ROUTEID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=SALUTATION&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SALUTATION&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=FIRSTNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FIRSTNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=MIDDLENAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MIDDLENAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LASTNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LASTNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=SUFFIX&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SUFFIX&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=STREETNUMBER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STREETNUMBER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=STREETADDRESS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STREETADDRESS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=APARTMENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=APARTMENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=CITY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CITY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=STATE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STATE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=ZIPCODE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=ZIPCODE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=PHONENUMBER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PHONENUMBER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=PHONETYPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PHONETYPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=DELIVERYNOTES&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DELIVERYNOTES&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=CUSTOMERNOTES&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CUSTOMERNOTES&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=DELIVERYLOCATION&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DELIVERYLOCATION&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LONGITUDE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LONGITUDE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LATITUDE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LATITUDE&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="TITLE">APICustomer</DAT>
+<DAT name="SFUNC" xml:space='preserve'>#include U:zProcError  ; Report an unexpected failure in a proc statement.
+</DAT>
+<DAT name="HTMLPROP" xml:space='preserve'>EDITOR=GRAPHICAL&uSEP;MODIFIED_BY=9.7.01</DAT>
+<DAT name="USCONTAINED">1</DAT>
+<DAT name="GETSTATE">;</DAT>
+<DAT name="SETSTATE">;</DAT>
+<DAT name="TPLACTUAL2" xml:space='preserve'>#comment The pre-defined constant $cmpStateManagedBy represents the component property 'State Managed By'.
+#comment See GetState and SetState triggers for usage.
+#comment It has one of the following values:
+
+#define  noState                 = 0
+#define  byCookie                = 1
+#define  byStateManagerComponent = 2
+</DAT>
+<DAT name="USTATEMANAGEDBY">0</DAT>
+<DAT name="HTMLSKELETON" xml:space='preserve'>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:35:32.00</DAT>
+<DAT name="UCOMPSTAMP">2016-03-03T14:27:35.00</DAT>
+<DAT name="ULABEL">CUSTOMER</DAT>
+<DAT name="WVPOS">3</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">35</DAT>
+<DAT name="WHSIZ">85</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="MOVABLE">Y</DAT>
+<DAT name="HIDESTACK">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">0</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="CLEAR" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate clear() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Clear' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;clear()
+
+#else
+  clear
+
+#endif
+</DAT>
+<DAT name="RETRIEVE" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate load() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Load' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;load()
+
+#else
+  retrieve
+  if ($status &lt; 0)
+    message $text(1762) ;error
+  endif
+
+#endif</DAT>
+<DAT name="RECORD" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate load() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Load' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;load()
+
+#else
+  retrieve
+  if ($status &lt; 0)
+    message $text(1762) ;error
+  endif
+
+#endif</DAT>
+<DAT name="STORE" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate save() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Save' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;save()
+
+#else
+  store
+  if ($status &lt; 0)
+     message $text(1500)    ; error
+     rollback
+  else
+    if ($status = 1)
+      message $text(1723)   ; no change
+    else
+      commit
+      if ($status &lt; 0)
+        rollback
+      else
+        message $text(1805) ; Ok
+      endif
+    endif
+  endif
+
+#endif</DAT>
+<DAT name="DELET" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate deleteall() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Delete All' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;deleteall()
+
+#else
+  erase
+  if ($status &lt; 0)
+    message $text(1763)   ;error
+    rollback
+  else
+    if ($status = 1)
+      message $text(1634) ;not allowed
+    else
+      message $text(1806) ;Ok
+      commit
+    endif
+  endif
+
+#endif</DAT>
+<DAT name="ACCEPT" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate save() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by an 'OK' Button).
+if ($formmod)
+  $collhandle("&lt;frmEntity&gt;")-&gt;save()       ; save modifications
+  if ($status &lt; 0)                         ; check negative status from Save()
+    return (-1)
+  endif
+endif
+
+exit (0)
+#else
+#endif</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+
+ &uFRM;TYP=E&uSEP;NAM=CUSTOMER.PAPERROUTE&uSEP;WID=253&uSEP;HEI=20&uSEP;HOC=253&uSEP;VOC=2&uFRM;&uFRM;TYP=L&uSEP;NAM=CUSTOMERID.CUSTOMER&uSEP;WID=11&uSEP;HEI=1&uSEP;LAB=Customer Id&uFRM;         &uFRM;TYP=L&uSEP;NAM=FULLNAME.CUSTOMER&uSEP;WID=9&uSEP;HEI=1&uSEP;LAB=Full Name&uFRM;                                &uFRM;TYP=L&uSEP;NAM=ROUTEID.CUSTOMER&uSEP;WID=8&uSEP;HEI=1&uSEP;LAB=Route Id&uFRM;  &uFRM;TYP=L&uSEP;NAM=SALUTATION.CUSTOMER&uSEP;WID=10&uSEP;HEI=1&uSEP;LAB=Salutation&uFRM;  &uFRM;TYP=L&uSEP;NAM=FIRS
+&uBS;TNAME.CUSTOMER&uSEP;WID=10&uSEP;HEI=1&uSEP;LAB=First Name&uFRM;     &uFRM;TYP=L&uSEP;NAM=MIDDLENAME.CUSTOMER&uSEP;WID=11&uSEP;HEI=1&uSEP;LAB=Middle Name&uFRM;  &uFRM;TYP=L&uSEP;NAM=LASTNAME.CUSTOMER&uSEP;WID=9&uSEP;HEI=1&uSEP;LAB=Last Name&uFRM;     &uFRM;TYP=L&uSEP;NAM=SUFFIX.CUSTOMER&uSEP;WID=6&uSEP;HEI=1&uSEP;LAB=Suffix&uFRM;  &uFRM;TYP=L&uSEP;NAM=STREETNUMBER.CUSTOMER&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=Street Number&uFRM; &uFRM;TYP=L&uSEP;NAM=STREETADDRESS.CUSTOMER&uSEP;WID=50&uSEP;HEI=1&uSEP;LAB=Street Add
+&uBS;ress&uFRM;  &uFRM;TYP=L&uSEP;NAM=CITY.CUSTOMER&uSEP;WID=11&uSEP;HEI=1&uSEP;LAB=City&uFRM;  &uFRM;TYP=L&uSEP;NAM=STATE.CUSTOMER&uSEP;WID=5&uSEP;HEI=1&uSEP;LAB=State&uFRM; &uFRM;TYP=L&uSEP;NAM=ZIPCODE.CUSTOMER&uSEP;WID=11&uSEP;HEI=1&uSEP;LAB=Postal Code&uFRM; &uFRM;TYP=L&uSEP;NAM=LATITUDE.CUSTOMER&uSEP;WID=8&uSEP;HEI=1&uSEP;LAB=Latitude&uFRM;   &uFRM;TYP=L&uSEP;NAM=LONGITUDE.CUSTOMER&uSEP;WID=9&uSEP;HEI=1&uSEP;LAB=Longitude&uFRM;
+ &uFRM;TYP=F&uSEP;NAM=CUSTOMERID&uSEP;WID=20&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=FULLNAME&uSEP;WID=40&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=ROUTEID&uSEP;WID=8&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=SALUTATION&uSEP;WID=10&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=FIRSTNAME&uSEP;WID=13&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=MIDDLENAME&uSEP;WID=11&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=LASTNAME&uSEP;WID=13&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=SUFFIX&uSEP;WID=5&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=STREETNUMBER
+&uBS;&uSEP;WID=13&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=STREETADDRESS&uSEP;WID=50&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=CITY&uSEP;WID=11&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=STATE&uSEP;WID=5&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=ZIPCODE&uSEP;WID=10&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=LATITUDE&uSEP;WID=8&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=LONGITUDE&uSEP;WID=9&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="WINPROP" xml:space='preserve'>CAPTION=&uSEP;CANRESIZE=&uSEP;CANICONIZE=&uSEP;CANZOOM=&uSEP;CANCLOSE=&uSEP;SYSMENU=&uSEP;IMAGE=&uSEP;MODAL=F&uSEP;ATTACHED=&uSEP;UTYPE=&uSEP;DIRECTION=&uSEP;SPLIT=</DAT>
+<DAT name="SFUNC" xml:space='preserve'>#include U:zProcError  ; Report an unexpected failure in a proc statement.
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="UCOMPSTAMP">2016-03-03T14:27:56.00</DAT>
+<DAT name="ULABEL">REPAPI</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Repository API</DAT>
+<DAT name="WVPOS">2</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">35</DAT>
+<DAT name="WHSIZ">137</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="MOVABLE">Y</DAT>
+<DAT name="UPULL">LIST_BAR</DAT>
+<DAT name="HIDESTACK">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">USYS</DAT>
+<DAT name="UTRANSACT">7</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+#Define FRMNAM=UUXTXT41
+#Define FRMLIB=UUXTXT41
+#Define FRMTYP=40
+#Define FRMPRE=UU
+#Define FRMCLS=00
+#Define FRMGRP=CONC
+#Define FRMWKB=CONC
+#Define FRMPRM=
+#Define FRMFPF=
+#Define FRMSEQ=XREF_TYPE.SELECTION, XREFNAME.SELECTION, XREFENT.SELECTION, XREFMDL.SELECTION, CNTXT_TYPE.SELECTION, CNTXTNAME.SELECTION, CNTXTENT.SELECTION, CNTXTMDL.SELECTION, XREF_TYPE.SELECTION
+
+#Define OBJECTS=
+#Define COMPONENTS=
+
+#Define OBJNAM0=
+#Define OBJABR0=
+#Define OBJTYP0=
+#Define OBJNEW0=
+#Define OBJDEL0=
+#Define OBJPKF0=
+#Define OBJPRM0=
+#Define OBJFLD0=
+#Define OBJCMP0=
+
+#Define CMPNAM0=
+#Define CMPTYP0=
+#Define CMPLAY0=
+#Define CMPMNT0=
+#Define CMPFPF0=
+#Define CMPOBJ0=
+#Define CMPDES0=
+#Define CMPPAR0=
+#Define CMPBAR0=
+#Define CMPCPP0=
+#Define CMPCPC0_1=
+
+#Define INCLUDE_ACPT=0
+#Define INCLUDE_AIO=0
+#Define INCLUDE_CLR=0
+#Define INCLUDE_DECR=0
+#Define INCLUDE_DELE=0
+#Define INCLUDE_DFMT=0
+#Define INCLUDE_DLUP=0
+#Define INCLUDE_DTLE=0
+#Define INCLUDE_DTLF=0
+#Define INCLUDE_ENCR=0
+#Define INCLUDE_ERAS=0
+#Define INCLUDE_EXEC=0
+#Define INCLUDE_FMT=0
+#Define INCLUDE_GFOC=0
+#Define INCLUDE_HLPE=0
+#Define INCLUDE_HLPF=0
+#Define INCLUDE_LFLD=0
+#Define INCLUDE_LMK=0
+#Define INCLUDE_LMO=0
+#Define INCLUDE_LOCK=0
+#Define INCLUDE_LPME=0
+#Define INCLUDE_LPMF=0
+#Define INCLUDE_LPMX=0
+#Define INCLUDE_LPO=0
+#Define INCLUDE_MNUE=0
+#Define INCLUDE_MNUF=0
+#Define INCLUDE_MNUS=0
+#Define INCLUDE_NFLD=1
+#Define INCLUDE_OBA=0
+#Define INCLUDE_PFLD=1
+#Define INCLUDE_PRNT=0
+#Define INCLUDE_PULS=0
+#Define INCLUDE_QUIT=0
+#Define INCLUDE_READ=0
+#Define INCLUDE_RETR=0
+#Define INCLUDE_RMO=0
+#Define INCLUDE_SMOD=0
+#Define INCLUDE_STOR=0
+#Define INCLUDE_UKYS=0
+#Define INCLUDE_VCHG=0
+#Define INCLUDE_WRIT=0
+#Define INCLUDE_WRUP=0</DAT>
+<DAT name="INIT" xml:space='preserve'>public web
+	
+variables
+ 	string urlpresented
+	string type
+	string qualifier 
+	string item
+	string subitem
+	string debugstring
+	string requestmethod, server_variables, sentparameters
+	string accept, content_type, output_type, uppercasecontent
+	string url
+	numeric vStatus
+endvariables
+
+urlpresented = $webinfo("PATHINPUT")
+
+;
+; No complete path specified so return a 204
+;
+
+getitem/id server_variables, $webinfo("WEBSERVERCONTEXT"), "SERVERVARIABLES"
+getitem/id requestmethod, server_variables, "REQUEST_METHOD"
+
+vStatus = $split($item("SERVER_PROTOCOL", server_variables), 1, "/", url, "")
+url = $concat($concat($lowercase(url), "://", $item("SERVER_NAME", server_variables), ":", $item("SERVER_PORT", server_variables)), $item("REQUEST_URI", server_variables))
+
+getitem/id accept, $webinfo("HTTPREQUESTHEADERS"), "accept"
+getitem/id content_type, $webinfo("HTTPREQUESTHEADERS"), "content-type"
+
+getitem/id sentparameters, $webinfo("INPUT"), "format"
+
+output_type = "JSON"
+if ($uppercase(sentparameters) = "XML" | $scan($uppercase(accept), "XML") &gt; 0)
+	output_type = "XML"
+endif
+
+
+if (requestmethod = "OPTIONS")
+	$webinfo("status") = "200"
+	putitem/id $webinfo("httpresponseheaders"),"Allow","GET,HEAD,OPTIONS"  
+	$webinfo("output") = "Allow: GET, HEAD, OPTIONS";
+	return (0)
+endif
+
+if ($length(urlpresented) = 0) 
+	$webinfo("status")="204"
+	$webinfo("output") = "%%$outputprefix$ 204 No Data Present"
+	return (0)
+endif
+
+
+;
+; Method other than GET/HEAD specified
+;
+if (requestmethod != "GET" &amp;&amp; requestmethod != "HEAD")
+	$webinfo("status") = "405"
+	return (0)
+endif
+
+getitem type, urlpresented, 1
+getitem qualifier, urlpresented, 2
+getitem item, urlpresented, 3
+getitem subitem, urlpresented, 4
+ 
+
+selectcase type
+    case "globalprocs"
+		$webinfo("status") = globalprocs( qualifier, item, url, output_type, requestmethod)
+	case "models"
+		$webinfo("status") = models( qualifier, item, subitem, url, output_type, requestmethod)
+	case "xref"
+		$webinfo("status") = xref (qualifier, url, output_type, requestmethod)
+ elsecase
+	$webinfo("status") = "404" ; Return Not Found
+endselectcase
+
+return 0</DAT>
+<DAT name="CLEAR" xml:space='preserve'>clear
+</DAT>
+<DAT name="GENERAL" xml:space='preserve'>; ********************************************************************************
+
+entry globalprocs
+
+	params
+		string library_name   : IN     ; The library
+		string proc_name      : IN     ; The proc
+		string url            : IN     ; The URL
+		string content_type   : IN     ; XML or JSON
+		string request_method : IN     ; HEAD or GET
+	endparams
+	
+	variables
+		string JSONrecords
+		numeric totalOcc 
+		string outputFieldList
+	endvariables
+	
+	
+	#define EntName=USOURCE	
+
+	clear/e "&lt;EntName&gt;"
+	USUB.&lt;EntName&gt;/init = "P"
+	UVAR.&lt;EntName&gt;/init = $uppercase(library_name)
+	
+	if ($length(proc_name) &gt; 0)
+		ULABEL.&lt;EntName&gt;/init = $uppercase(proc_name)
+	endif
+	
+	retrieve/e "&lt;EntName&gt;" 
+	
+	if (library_name = "")
+		outputFieldList = "uvar=Library&uSEP;uri"
+		sort "&lt;EntName&gt;", $concat($idpart($itemnr(1, outputFieldList)), ": u")
+	elseif (proc_name = "")
+		outputFieldList = "ulabel=Object&uSEP;uvar=Library&uSEP;uri"
+	else
+		outputFieldList = "ulabel=Object&uSEP;uvar=Library&uSEP;utext=Text"
+	endif
+
+	setocc "&lt;EntName&gt;",1
+	
+	if (request_method = "HEAD")
+		JSONRecords = "OK"
+		$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+		if ($hits("USOURCE") &gt; 0)
+			return (200)
+		else
+			return (404)
+		endif
+	endif
+	
+	totalOcc = $hits("&lt;EntName&gt;")
+	
+	if ($hits("&lt;EntName&gt;") =     0 | $hits("&lt;EntName&gt;") = "" )
+		JSONRecords = "Not found"
+		return (404)
+	endif
+	
+	;$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+	;return (0)
+	
+	putitem/id $webinfo("httpresponseheaders"),"Access-Control-Allow-Origin","http://localhost"
+	putitem/id $webinfo("httpresponseheaders"),"Allow-Origin","http://localhost"
+	
+	;putitem/id $webinfo("httpresponseheaders"),"Content-Type", "application/json"
+	
+	if (content_type = "XML")    
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/xml" ; removed charset=
+	else
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/json" ; removed charset=
+	endif
+	
+	JSONrecords = generateOutput("&lt;EntName&gt;", outputFieldList, url, content_type)
+
+	;$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+	$webinfo("OUTPUT") = JSONrecords
+	return(200)
+
+end;- globalprocs
+
+; ********************************************************************************
+
+entry models
+
+	params
+		string model_name     : IN     ; The model
+		string entity_name    : IN     ; The entity
+		string field_name     : IN     ; The field
+		string url            : IN     ; The URL
+		string content_type   : IN     ; XML or JSON
+		string request_method : IN     ; HEAD or GET
+	endparams
+	
+	variables
+		string JSONrecords
+		numeric totalOcc 
+		string outputFieldList
+	endvariables
+	
+	#define EntName=UCFIELD	
+
+	clear/e "&lt;EntName&gt;"
+	U_VLAB.&lt;EntName&gt;/init = $uppercase(model_name)
+	
+	if ($length(entity_name) &gt; 0)
+		U_TLAB.&lt;EntName&gt;/init = $uppercase(entity_name)
+		if ($length(field_name) &gt; 0)
+			U_FLAB.&lt;EntName&gt;/init = $uppercase(field_name)
+		endif
+	endif
+	
+	retrieve/e "&lt;EntName&gt;" 
+	
+	if (model_name = "")
+		outputFieldList = "u_vlab=Model&uSEP;uri"
+		sort "&lt;EntName&gt;", $concat($idpart($itemnr(1, outputFieldList)), ": u")
+	elseif (entity_name = "")
+		outputFieldList = "u_tlab=Entity&uSEP;u_vlab=Model&uSEP;uri"
+		sort "&lt;EntName&gt;", $concat($idpart($itemnr(1, outputFieldList)), ": u")
+	elseif (field_name = "")
+		outputFieldList = "u_flab=Field&uSEP;u_tlab=Entity&uSEP;u_vlab=Model&uSEP;uri"
+	else
+		outputFieldList = "u_flab=Field&uSEP;u_tlab=Entity&uSEP;u_vlab=Model&uSEP;u_fseq=Sequenc Number&uSEP;u_dtyp=Data Type"
+	endif
+
+	setocc "&lt;EntName&gt;",1
+	
+	if (request_method = "HEAD")
+		JSONRecords = "OK"
+		$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+		if ($hits("&lt;EntName&gt;") &gt; 0)
+			return (200)
+		else
+			return (404)
+		endif
+	endif
+	
+	totalOcc = $hits("&lt;EntName&gt;")
+	
+	if ($hits("&lt;EntName&gt;") =     0 | $hits("&lt;EntName&gt;") = "" )
+		JSONRecords = "Not found"
+		return (404)
+	endif
+	
+	;$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+	;return (0)
+	
+	putitem/id $webinfo("httpresponseheaders"),"Access-Control-Allow-Origin","http://localhost"
+	putitem/id $webinfo("httpresponseheaders"),"Allow-Origin","http://localhost"
+	
+	;putitem/id $webinfo("httpresponseheaders"),"Content-Type", "application/json"
+	
+	if (content_type = "XML")    
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/xml" ; removed charset=
+	else
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/json" ; removed charset=
+	endif
+	
+	JSONrecords = generateOutput("&lt;EntName&gt;", outputFieldList, url, content_type)
+
+	;$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+	$webinfo("OUTPUT") = JSONrecords
+	return(200)
+
+end;- models
+
+; ********************************************************************************
+
+entry xref
+	params
+		string referencename  : IN
+		string url            : IN
+		string content_type   : IN
+		string request_method : IN
+	endparams
+	
+	variables
+		string JSONrecords
+		numeric totalOcc 
+		string outputFieldList
+	endvariables
+	
+	; ==================================================
+	; Load FLISTs
+	$FRMOBJ$         = $text("FLIST_RR_GEN")     ; General texts
+	$TRIGGER$        = $text("FLIST_RR_UGCROSS") ; Trigger abbreviations
+	; ==================================================
+	
+	$CONTEXT$ = ""
+	$PREV_CONTEXT$ = ""
+	
+; Fill dropdownlists in Profile section:
+	;
+	; Reference
+	;
+	; CPT=Component,APS=Startup Shell,FRM=Form,VAR=Global Variables,PRC=Global Proc module,KTT=Translation_table,PNL=Panel,MSG=Message Text,
+	; GLY=Glyph,MEN=Menu,FIL=File,INC=Include,LIB=Library,PRO=Proc,ENT=Entity,CNT=Counter,DTD=Document Type Definitions,TEM=Template,FLD=Field,
+	; HND=Handle,$V$=Component Variable,$NN=General Variable,EIN=Entity Interface,FIN=Field Interface,FSY=Field Syntax,FLA=Field Layout,PER=Perform,PAT=Path
+	;
+	$reference_types$ = $item("VALREP", $ude("Describe", "Symboltable&uSEP;TYP"))
+	; Modify texts...
+	putitem/id $reference_types$, "PRC", "Global Proc"
+	putitem/id $reference_types$, "KTT", "Keyboard Table"
+	putitem/id $reference_types$, "$V$", "Comp. Variable"
+	putitem/id $reference_types$, "DTD", "DTD"
+	;
+	; Compiled Object
+	;
+	; CPT=Component,APS=Startup Shell,PRC=Central Proc module,PNL=Panel,MSG=Message Text,MEN=Menu
+	$object_types$ = $item("VALREP", $ude("Describe", "Symboltable&uSEP;OBJTYP"))
+	; Modify texts...
+	putitem/id $object_types$, "PRC", "Global Proc"
+	
+	outputFieldList = "d_reftyp=Type&uSEP;d_refname=Name&uSEP;d_objnam=ReferencedBy&uSEP;d_objtyp=ObjectType&uSEP;uobjnam=Object&uSEP;d_trigger=Trigger&uSEP;udefsln=LineNo&uSEP;trg_var=TriggerVar"
+	
+	
+	clear
+	UOBJNAM/init = referencename
+	retrieve "UXCROSS" 
+	setocc "UXCROSS",1
+	
+	if (request_method = "HEAD")
+		JSONRecords = "OK"
+		$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+		if ($hits("UXCROSS") &gt; 0)
+			return (200)
+		else
+			return (404)
+		endif
+	endif
+	
+	totalOcc = $hits("UXCROSS")
+	
+	putitem/id $webinfo("httpresponseheaders"),"Access-Control-Allow-Origin","http://localhost"
+	putitem/id $webinfo("httpresponseheaders"),"Allow-Origin","http://localhost"
+	
+	;putitem/id $webinfo("httpresponseheaders"),"Content-Type", "application/json"
+	
+	if (content_type = "XML")    
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/xml" ; removed charset=
+	else
+		putitem/id $webinfo("httpresponseheaders"),"Content-Type", "text/json" ; removed charset=
+	endif
+	
+	JSONrecords = generateOutput("UXCROSS", outputFieldList, url, content_type)
+
+	;$webinfo("OUTPUT") = $concat( $OUTPUTPREFIX$, JSONrecords)
+	$webinfo("OUTPUT") = JSONrecords
+	return(200)
+
+end;- xref
+
+; ********************************************************************************
+
+entry generateOutput
+
+	returns string
+
+	params
+		string EntityName : IN
+		string outputFieldList : IN
+		string url : IN
+		string content_type : IN
+	endparams
+
+	variables
+		struct vStruct
+		string JSONrecords
+		string fieldlist 
+		string vItemId
+		string vItemValue
+		string lcItem
+		string vIndex
+		numeric totalOcc 
+		string sTemp
+		string processedFieldList
+		string vFieldName
+		string vOutput
+		string vUri
+	endvariables
+
+	if (content_type = "XML")
+		vStruct-&gt;root = $newstruct
+	else
+		vStruct = $newstruct
+	endif
+	
+	forentity EntityName ;loop through each USource Reference row
+		
+		if (content_type = "XML")
+			vStruct-&gt;root-&gt;row{-1} = $newstruct
+		else
+			vStruct-&gt;""{-1} = $newstruct
+		endif
+		
+		putlistitems/occ fieldlist, EntityName    
+		
+		processedFieldList = ""
+		forlist/id vItemId, vItemValue, vIndex in fieldlist
+			getitem/id vFieldName, outputFieldList, vItemId
+			if (vFieldName != "")
+				putitem/id processedFieldList, vFieldName, vItemValue
+			endif
+		endfor    
+		if ($lowercase($itemnr(-1, outputFieldList)) = "uri")
+			putitem/id processedFieldList, "uri", $concat(url, "/", $lowercase($valuepart($itemnr(1, processedFieldList))))
+		endif
+	
+		forlist/id vItemId, vItemValue, vIndex in processedFieldList            
+			lcItem = $lowercase(vItemId,"classic")
+				
+			if (content_type = "XML")
+				vStruct-&gt;root-&gt;row{-1}-&gt;"%%lcItem" = vItemValue
+			else 
+				vStruct-&gt;""{-1}-&gt;"%%lcItem" = vItemValue
+			endif         
+		endfor
+
+	endfor
+
+	if (content_type = "XML")
+		structtoxml vOutput, vStruct
+	else
+		structtojson vOutput, vStruct
+	endif
+
+	return (vOutput)
+
+end;- generateOutput
+
+; ********************************************************************************
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=UCFIELD.DICT&uSEP;WID=45&uSEP;HEI=18&uSEP;HOC=45&uSEP;VOC=18&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_FLAB.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Field Name&uFRM;&uFRM;TYP=F&uSEP;NAM=U_FLAB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_TLAB.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=(Sub-)Entity&uFRM;&uFRM;TYP=F&uSEP;NAM=U_TLAB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_VLAB.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Model&uFRM;&uFRM;TYP=F&uSEP;NAM=U_VLAB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_FSEQ.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Sequence Number&uFRM;&uFRM;TYP=F&uSEP;NAM=U_FSEQ&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=UDESCR.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Description&uFRM;&uFRM;TYP=F&uSEP;NAM=UDESCR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_DTYP.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Data Type&uFRM;&uFRM;TYP=F&uSEP;NAM=U_DTYP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_INDB.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Characteristics&uFRM;&uFRM;TYP=F&uSEP;NAM=U_INDB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=TPLINTF.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Interface Template&uFRM;&uFRM;TYP=F&uSEP;NAM=TPLINTF&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_INTF.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Interface Shorthand&uFRM;&uFRM;TYP=F&uSEP;NAM=U_INTF&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=TPLSYN.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Syntax Template&uFRM;&uFRM;TYP=F&uSEP;NAM=TPLSYN&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_SYN.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Syntax Shorthand&uFRM;&uFRM;TYP=F&uSEP;NAM=U_SYN&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=TPLLAY.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Layout Template&uFRM;&uFRM;TYP=F&uSEP;NAM=TPLLAY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_LAY.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Layout Shorthand&uFRM;&uFRM;TYP=F&uSEP;NAM=U_LAY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=WIDGETTYPE.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Widget Type&uFRM;&uFRM;TYP=F&uSEP;NAM=WIDGETTYPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_DESC.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Label&uFRM;&uFRM;TYP=F&uSEP;NAM=U_DESC&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_DOC.UCFIELD&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Comments&uFRM;&uFRM;TYP=F&uSEP;NAM=U_DOC&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=UGREGS.DICT&uSEP;WID=25&uSEP;HEI=26&uSEP;HOC=25&uSEP;VOC=26&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=UTIMESTAMP.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Last Modification&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UTIMESTAMP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_STAT.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Definition Status&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_STAT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_TYPE.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Type&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_TYPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_FORMLIB.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Library&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_FORMLIB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_NAME.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Variable Name&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_NAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=UVERS.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=UVCS Version&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UVERS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=UDESCR.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Description&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UDESCR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_DTYP.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Data Type&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_DTYP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_LAYOUT.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Display Format&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_LAYOUT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=U_DOC.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Comments&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=U_DOC&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=USCOPE.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Scope&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=USCOPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=UHINTERFACE.UGREGS&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=Classification&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UHINTERFACE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=USOURCE.DICT&uSEP;WID=25&uSEP;HEI=6&uSEP;HOC=25&uSEP;VOC=6&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=ULABEL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UVAR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=USUB&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UTEXT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=UXCROSS.DICT&uSEP;WID=25&uSEP;HEI=10&uSEP;HOC=25&uSEP;VOC=10&uSEP;BAR=Y&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_REFTYP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_REFNAME&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_OBJNAM&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_OBJTYP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UOBJNAM&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=TRG_VAR&uSEP;WID=20&uSEP;HEI=1&uSEP;COL=0&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_TRIGGER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UDEFSLN&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="PERF">#IDF</DAT>
+<DAT name="TITLE" xml:space='preserve'>Repository View - Cross-reference</DAT>
+<DAT name="WINPROP" xml:space='preserve'>CAPTION=&uSEP;CANRESIZE=&uSEP;CANICONIZE=&uSEP;CANZOOM=&uSEP;CANCLOSE=&uSEP;SYSMENU=&uSEP;BACKIMAGE=&uSEP;IMAGE=&uSEP;MODAL=&uSEP;ATTACHED=&uSEP;UTYPE=&uSEP;DIRECTION=&uSEP;SPLIT=&uSEP;NOFORMSCROLL=T&uSEP;BACKCOLOR=&uSEP;KEEPLAYOUT=&uSEP;LAYOUTSTORAGE=&uSEP;HALIGN=&uSEP;VALIGN=&uSEP;HSCALE=&uSEP;VSCALE=&uSEP;PRESERVEASPECT=&uSEP;OKBUTTON=</DAT>
+<DAT name="HTMLPROP">EDITOR=TEXT</DAT>
+<DAT name="HTMLSKELETON" xml:space='preserve'>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+ &lt;head&gt;
+  &lt;meta name="Default" content="Uniface 9" /&gt;
+  &lt;link rel="stylesheet" type="text/css" href="../css/udsp.css" /&gt;
+   &lt;title&gt;title&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+
+  page content here
+
+ &lt;/body&gt;
+&lt;/html&gt;</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">?ENTITY_1</DAT>
+<DAT name="UBASE">?MODEL</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T13:52:52.00</DAT>
+<DAT name="ULABEL">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:34:27.00</DAT>
+<DAT name="ULABEL">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="UECTRIGGERS" xml:space='preserve'>; -- start extended triggers for grid widget 
+
+trigger ColumnHeader_LClicked 
+params 
+  string fieldName         : in 
+  numeric shiftKey         : in 
+endparams 
+
+end ; trigger ColumnHeader_LClicked 
+
+trigger RowHeader_LClicked 
+params 
+  numeric rowNumber        : in 
+  numeric shiftKey         : in 
+endparams 
+
+end ; trigger RowHeader_LClicked 
+
+trigger CornerButton_LClicked 
+  params 
+  numeric shiftKey         : in 
+endparams 
+
+end ; trigger CornerButton_LClicked 
+
+trigger VScrollBar_HitEnd 
+
+end ; trigger VScrollBar_HitEnd 
+
+trigger Viewport_Resized 
+params 
+  numeric widthPx          : in 
+  numeric heightPx         : in 
+  string  columnWidthsPx   : in 
+endparams 
+
+end ; trigger Viewport_Resized 
+
+trigger Column_Resized 
+params 
+  string  columnName       : in 
+  numeric viewportWidthPx  : in 
+  string  columnWidthsPx   : in 
+endparams 
+
+end ; trigger Column_Resized 
+
+; -- end triggers for grid widget 
+</DAT>
+<DAT name="UWIDGETTYPE">EGRID</DAT>
+<DAT name="UWIDGETCREATE" xml:space='preserve'>FIELDBORDERS=T&uSEP;COLUMNHEADERSVISIBLE=T&uSEP;ROWNUMBERING=T</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">HEADER</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="ADDOCC" xml:space='preserve'>;; call RR_header()
+
+; =========================================================
+; Set CONTEXT-Field in pageheader
+; =========================================================
+;if ($page = 1)
+;  CONTEXT.HEADER = "" ; Skip context on profile page
+;else
+;  if ($CONTEXT$ != "")
+;    if ($CONTEXT$ = $PREV_CONTEXT$)
+;      getitem/id $1, $FRMOBJ$, "CONT"  ; Add text 'continued'
+;      CONTEXT.HEADER = "%%$CONTEXT$%%% %%$1%%%"
+;    else
+;      CONTEXT.HEADER = $CONTEXT$
+;    endif
+;  endif
+;endif
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">PRINTLABELS</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>#define ENTNAM=SELECTION</DAT>
+<DAT name="DOC" xml:space='preserve'>call RR_help</DAT>
+<DAT name="BREAK">eject</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">TRAILER</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="ADDOCC" xml:space='preserve'>; =========================================================
+; Set Date and Time in pagefooter
+; =========================================================
+RDATE.TRAILER = $date
+RPAGE.TRAILER = $page
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read order by "U_VLAB,U_TLAB,U_FSEQ"</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">USOURCE</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>variables
+  string sTemp
+endvariables
+
+read              ; occurrence of UXCROSS
+if ($status = 0)  ; read successful
+
+  ; Compiled Object name is shown in UOBJNAM.UXCROSS
+  ; Additional info on compiled object is shown in D_OBJNAM.UXCROSS
+  ;
+  getitem/id D_OBJTYP.UXCROSS, $object_types$, UOBJTYP.UXCROSS
+  if ($status = 0)
+    D_OBJTYP.UXCROSS = UOBJTYP.UXCROSS
+    if ($$UU_SPECIAL = 1) putmess "Missing object type for %%UOBJNAM.UXCROSS%%%."
+  endif
+  ;
+  selectcase UOBJTYP.UXCROSS
+    case "CPT"
+      if (UDEFFLD.UXCROSS != "" &amp; UDEFFLD.UXCROSS != "0")
+        D_OBJNAM.UXCROSS = UDEFFLD.UXCROSS
+        if (UDEFENT.UXCROSS != "" &amp; UDEFENT.UXCROSS != "0") D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%.%%UDEFENT.UXCROSS%%%"
+        if (UDEFMDL.UXCROSS != "" &amp; UDEFMDL.UXCROSS != "0") D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%.%%UDEFMDL.UXCROSS%%%"
+      elseif (UDEFENT.UXCROSS != "" &amp; UDEFENT.UXCROSS != "0")
+        D_OBJNAM.UXCROSS = UDEFENT.UXCROSS
+        if (UDEFMDL.UXCROSS != "" &amp; UDEFMDL.UXCROSS != "0") D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%.%%UDEFMDL.UXCROSS%%%"
+      endif
+    case "APS"
+      ;
+    case "PRC"
+      D_OBJNAM.UXCROSS = UOBJLIB.UXCROSS
+    case "PNL"
+      D_OBJNAM.UXCROSS = UOBJLIB.UXCROSS
+    case "MSG"
+      ; not supported
+    case "MEN"
+      D_OBJNAM.UXCROSS = "%%UOBJLIB.UXCROSS%%%.%%UOBJLAN.UXCROSS%%%"
+      if (UDEFSRC.UXCROSS != "" &amp; UDEFSRC.UXCROSS != "0")
+        if (D_OBJNAM.UXCROSS = "")
+          D_OBJNAM.UXCROSS = "%%UDEFSRC.UXCROSS%%%"
+        else
+          D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%.%%UDEFSRC.UXCROSS%%%"
+        endif
+      endif
+  elsecase
+    if ($$UU_SPECIAL = 1) putmess "Unknown compiled object type: %%UOBJTYP.UXCROSS%%%."
+  endselectcase
+
+  ; Entry or Operation name (UDEFMOD) in &lt;OPER&gt; or &lt;LPMX&gt;.
+  ; c=Global,m=Entry,o=Operation;t=Trigger
+  if (UDEFMID.UXCROSS != "0")
+    getitem/id sTemp, $item("VALREP", $ude("Describe", "Symboltable&uSEP;MID")), UDEFMID.UXCROSS
+    if ($status &gt; 0 &amp; UDEFMID.UXCROSS != "c")
+      if (D_OBJNAM.UXCROSS = "")
+        D_OBJNAM.UXCROSS = "%%sTemp%%% %%UDEFMOD.UXCROSS%%%"
+      else
+        D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%, %%sTemp%%% %%UDEFMOD.UXCROSS%%%"
+      endif
+    endif
+  endif
+
+  ; Source ID: Include Proc/Global Proc
+  ; I=Include Proc,P=Global Proc
+  if (UDEFSID.UXCROSS != "0")
+    getitem/id sTemp, $item("VALREP", $ude("Describe", "Symboltable&uSEP;SID")), UDEFSID.UXCROSS
+    if ($status &gt; 0)
+      if (D_OBJNAM.UXCROSS = "")
+        D_OBJNAM.UXCROSS = "%%sTemp%%% %%UDEFSRC.UXCROSS%%%"
+      else
+        D_OBJNAM.UXCROSS = "%%D_OBJNAM.UXCROSS%%%, %%sTemp%%% %%UDEFSRC.UXCROSS%%%"
+      endif
+    endif
+  endif
+
+  ; Trigger long name
+  if (UDEFTRG.UXCROSS != "0")
+    getitem/id D_TRIGGER.UXCROSS, $text("FLIST_RR_CO_TRIG"), UDEFTRG.UXCROSS
+    if ($status = 0) ; Not found: try the $describe list
+      getitem/id D_TRIGGER.UXCROSS, $item("VALREP", $ude("Describe", "Symboltable&uSEP;TRG")), UDEFTRG.UXCROSS
+      if ($status = 0)
+        if ($$UU_SPECIAL = 1) putmess "Unknown trigger abbreviation: %%UDEFTRG.UXCROSS%%%."
+      endif
+    endif
+  else
+    D_TRIGGER.UXCROSS = "(No trigger)"
+  endif
+
+  ; Trigger source line number
+  if (UDEFSLN.UXCROSS = "0") UDEFSLN.UXCROSS = ""
+
+  ; Trigger variation
+  ; T=Template,M=Model,C=Component
+  if (UDEFTRF.UXCROSS = "T")
+    TRG_VAR.UXCROSS = "Template"
+  elseif (UDEFTRF.UXCROSS = "M")
+    TRG_VAR.UXCROSS = "Model"
+  elseif (UDEFTRF.UXCROSS = "C")
+    TRG_VAR.UXCROSS = "Component"
+  else
+    TRG_VAR.UXCROSS = ""
+  endif
+
+
+
+  ; Reference object
+  ;
+  getitem/id D_REFTYP.UXCROSS, $reference_types$, UREFTYP.UXCROSS
+  if ($status = 0)
+    D_REFTYP.UXCROSS = UREFTYP.UXCROSS
+    if ($$UU_SPECIAL = 1 &amp; UREFTYP.UXCROSS != "") putmess "Missing reference type for %%UREFTYP.UXCROSS%%%."
+    if ($$UU_SPECIAL = 1 &amp; UREFTYP.UXCROSS = "") putmess "Reference type not filled in for %%UOBJNAM.UXCROSS%%%."
+  endif
+  ;
+  selectcase UREFTYP.UXCROSS
+    case "VAR"
+      D_REFNAME.UXCROSS = "%%UREFENT.UXCROSS%%%:%%UREFFLD.UXCROSS%%%"
+    case "PRC"
+      D_REFNAME.UXCROSS = "%%UREFENT.UXCROSS%%%:%%UREFFLD.UXCROSS%%%"
+    case "INC"
+      D_REFNAME.UXCROSS = "%%UREFENT.UXCROSS%%%:%%UREFFLD.UXCROSS%%%"
+  elsecase
+    if (UREFFLD.UXCROSS != "") D_REFNAME.UXCROSS = UREFFLD.UXCROSS
+    if (UREFENT.UXCROSS != "")
+      if (D_REFNAME.UXCROSS = "")
+        D_REFNAME.UXCROSS = "%%UREFENT.UXCROSS%%%"
+      else
+        D_REFNAME.UXCROSS = "%%D_REFNAME.UXCROSS%%%.%%UREFENT.UXCROSS%%%"
+      endif
+    endif
+    if (UREFMDL.UXCROSS != "")
+      if (D_REFNAME.UXCROSS = "")
+        D_REFNAME.UXCROSS = "%%UREFMDL.UXCROSS%%%"
+      else
+        D_REFNAME.UXCROSS = "%%D_REFNAME.UXCROSS%%%.%%UREFMDL.UXCROSS%%%"
+      endif
+    endif
+  endselectcase
+
+  ; Calltype
+  ; D=Declaration,A=Activate,N=NewInstance,R=RunForm,B=Attribute,O=Operation,I=Instance
+  getitem/id sTemp, $item("VALREP", $ude("Describe", "Symboltable&uSEP;CALLTYPE")), UREFCLT.UXCROSS
+  if ($status &gt; 0)
+    D_REFNAME.UXCROSS = "%%D_REFNAME.UXCROSS%%% (%%sTemp%%%)"
+  endif
+
+  return (0)
+
+endif
+</DAT>
+<DAT name="ADDOCC" xml:space='preserve'>; Page 1 = profile.
+; Page 2 = first page of references with occurrence header labels printed.
+; Page 3 = break frame prints header labels.
+;
+$PREV_PAGE$ = $PAGE$
+$PAGE$ = $page
+if (($PAGE$ &gt; $PREV_PAGE$) &amp; ($page &gt; 2))
+  printbreak "PRINTLABELS"
+endif
+</DAT>
+<DAT name="DELOCCR" xml:space='preserve'>return (-1)</DAT>
+<DAT name="DOC" xml:space='preserve'>call RR_help</DAT>
+<DAT name="CREOCC" xml:space='preserve'>return (-1)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">APARTMENT</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">APARTMENT</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">CITY</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">CITY</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">CNTXTENT</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">CNTXTMDL</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">CNTXTNAME</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">CNTXT_TYPE</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">SS</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="LAYOUTMOD">WID(20)</DAT>
+<DAT name="INTERFACEMOD">C20</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="WIDGETTYPE">DROPDOWNLIST</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>call setCNTXT_dim()</DAT>
+<DAT name="HTML_CTRLTYPE">U_MENU</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">CONTEXT</DAT>
+<DAT name="GRP">HEADER</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">NED,NPR</DAT>
+<DAT name="INTERFACEMOD">C40</DAT>
+<DAT name="WIDGETTYPE">HYPERLINK</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE" xml:space='preserve'>LABELFONT=LABEL&uSEP;FONT=LABEL&uSEP;HYPERLINK=OFF</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:08.00</DAT>
+<DAT name="ULABEL">CUSTOMERID</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:23.00</DAT>
+<DAT name="ULABEL">CUSTOMERID</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">CUSTOMERNOTES</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">CUSTOMERNOTES</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">DELIVERYLOCATION</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">DELIVERYLOCATION</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">DELIVERYNOTES</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">DELIVERYNOTES</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">D_OBJNAM</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="TPLINTF">F32</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">D_OBJTYP</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C40</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">D_REFNAME</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C128</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">D_REFTYP</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C40</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">D_TRIGGER</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">NED</DAT>
+<DAT name="INTERFACEMOD">C40</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE">MULTILINE=F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">FIRSTNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">FIRSTNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:08.00</DAT>
+<DAT name="ULABEL">FULLNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:34:57.00</DAT>
+<DAT name="ULABEL">FULLNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">LASTNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">LASTNAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">LATITUDE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:25.00</DAT>
+<DAT name="ULABEL">LATITUDE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">LONGITUDE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:25.00</DAT>
+<DAT name="ULABEL">LONGITUDE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">MIDDLENAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">MIDDLENAME</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">PHONENUMBER</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">PHONENUMBER</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">PHONETYPE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">PHONETYPE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">RDATE</DAT>
+<DAT name="GRP">TRAILER</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">D</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">NED,NPR</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="WIDGETTYPE">HYPERLINK</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE" xml:space='preserve'>LABELFONT=LABEL&uSEP;FONT=LABEL&uSEP;HYPERLINK=OFF</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:08.00</DAT>
+<DAT name="ULABEL">ROUTEID</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:23.00</DAT>
+<DAT name="ULABEL">ROUTEID</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">RPAGE</DAT>
+<DAT name="GRP">TRAILER</DAT>
+<DAT name="UBASE">USYS</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">NED,NPR</DAT>
+<DAT name="INTERFACEMOD">!C3</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="WIDGETTYPE">HYPERLINK</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE" xml:space='preserve'>LABELFONT=LABEL&uSEP;FONT=LABEL&uSEP;HYPERLINK=OFF</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:08.00</DAT>
+<DAT name="ULABEL">SALUTATION</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">SALUTATION</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">STREETADDRESS</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">STREETADDRESS</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">STREETNUMBER</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">STREETNUMBER</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">SUFFIX</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">SUFFIX</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">TPLINTF</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">TPLLAY</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">TPLSYN</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">TRG_VAR</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C32</DAT>
+<DAT name="WIDGETTYPE">PICTURE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE">TRANSPARENCY=T</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="UFTRIGGERS" xml:space='preserve'>; -- start triggers for picture widget 
+
+trigger moveTo
+params
+  string dragvalue: in
+  string dropformat: in
+  string itemvalue: in
+  numeric numberofobjects: in
+  numeric index: in
+endparams
+
+end ; trigger moveTo
+
+trigger moveFrom
+params
+  string dragvalue: in
+  string dropformat: in
+  numeric numberofobjects: in
+  numeric index: in
+endparams
+
+end ; trigger moveFrom
+
+trigger moveWithin
+params
+  string dragvalue: in
+  string dropformat: in
+  string itemvalue: in
+  numeric numberofobjects: in
+  numeric index: in
+endparams
+
+end ; trigger moveWithin
+
+trigger copyTo
+params
+  string dragvalue: in
+  string dropformat: in
+  string itemvalue: in
+  numeric numberofobjects: in
+  numeric index: in
+endparams
+
+end ; trigger copyTo
+
+trigger createShortcutTo
+params
+  string dragvalue: in
+  string dropformat: in
+  string itemvalue: in
+  numeric numberofobjects: in
+  numeric index: in
+endparams
+
+end ; trigger createShortcutTo
+
+; -- end triggers for picture widget
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UDEFSLN</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="WIDGETCREATE">MULTILINE=F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UDESCR</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UDESCR</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UHINTERFACE</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">ULABEL</DAT>
+<DAT name="GRP">USOURCE</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UOBJNAM</DAT>
+<DAT name="GRP">UXCROSS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">USCOPE</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">USUB</DAT>
+<DAT name="GRP">USOURCE</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UTEXT</DAT>
+<DAT name="GRP">USOURCE</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UTIMESTAMP</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UVAR</DAT>
+<DAT name="GRP">USOURCE</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">UVERS</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_DESC</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_DOC</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_DOC</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_DTYP</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_DTYP</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_FLAB</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_FLABS</DAT>
+<DAT name="GRP">?ENTITY_1</DAT>
+<DAT name="UBASE">?MODEL</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_TLAB">?ENTITY_1</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_FORMLIB</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_FSEQ</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_INDB</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_INTF</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_KSEQ</DAT>
+<DAT name="GRP">?ENTITY_1</DAT>
+<DAT name="UBASE">?MODEL</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_TLAB">?ENTITY_1</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_KTYP</DAT>
+<DAT name="GRP">?ENTITY_1</DAT>
+<DAT name="UBASE">?MODEL</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_TLAB">?ENTITY_1</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_LAY</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_LAYOUT</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_NAME</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_STAT</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_SYN</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_TLAB</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_TYPE</DAT>
+<DAT name="GRP">UGREGS</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">U_VLAB</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">WIDGETTYPE</DAT>
+<DAT name="GRP">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">XREFENT</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">XREFMDL</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">XREFNAME</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">Z</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="INTERFACEMOD">C*</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="ULABEL">XREF_TYPE</DAT>
+<DAT name="GRP">SELECTION</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">REPAPI</DAT>
+<DAT name="U_DTYP">SS</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="LAYOUTMOD">WID(20)</DAT>
+<DAT name="INTERFACEMOD">C20</DAT>
+<DAT name="TABSTOP">0</DAT>
+<DAT name="WIDGETTYPE">DROPDOWNLIST</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>call setXREF_dim()
+</DAT>
+<DAT name="HTML_CTRLTYPE">U_MENU</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-10T16:16:09.00</DAT>
+<DAT name="ULABEL">ZIPCODE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">APICUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T12:30:24.00</DAT>
+<DAT name="ULABEL">ZIPCODE</DAT>
+<DAT name="GRP">CUSTOMER</DAT>
+<DAT name="UBASE">PAPERROUTE</DAT>
+<DAT name="UFORM">CUSTOMER</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">CONTEXT</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">FRMOBJ</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">OBJECT_TYPES</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">OUTPUTPREFIX</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Output Prefix Data</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_DOC" xml:space='preserve'>Appended first to OUTPUT data chanel</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">PAGE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">PREV_CONTEXT</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">PREV_PAGE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">REFERENCE_TYPES</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">TRGVAR</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-03-03T14:26:32.00</DAT>
+<DAT name="U_FORMLIB">REPAPI</DAT>
+<DAT name="U_NAME">TRIGGER</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
