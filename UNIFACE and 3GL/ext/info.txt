@@ -1,1 +1,0 @@
-This directory contains platform specific UNIFACE artifacts such as UARs.

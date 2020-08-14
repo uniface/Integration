@@ -1,3 +1,0 @@
-This directory contains binaries that are required for this project. Examples include :
-- External tools
-- 3GL DLL's
